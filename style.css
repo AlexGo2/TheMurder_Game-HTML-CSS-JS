@@ -21,7 +21,7 @@ header {
     text-shadow: 1px 1px 10px red;
 }
 
-header a { 
+header  a { 
     color: white;
     margin: 0 50px 0 0;
     text-shadow: 1px 1px 10px red;
@@ -83,6 +83,10 @@ main {
     transition: 1.0s all;
 }
 
+button a {
+    color: white;
+}
+
 .botoes button:hover { 
     transform: scale(1.1);
     color: rgb(180, 42, 42);
@@ -102,3 +106,48 @@ footer p {
 footer strong { 
     color: rgb(201, 57, 57);
 }
+
+/* Página de Personagens */
+
+.personagens-img { 
+width: 100px;
+height: 100px;
+
+}
+
+.container-personagens {
+color: white; 
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+gap: 10%;
+align-items: center;
+width: 80%;
+height: 80%;
+box-sizing: border-box;
+}
+
+.personagem { 
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+
+.nome-personagem { 
+    margin: 0 0 15px 0;
+}
+
+.descricao { 
+    font-size: 1em;
+    text-align: center;
+}
+
+
+
