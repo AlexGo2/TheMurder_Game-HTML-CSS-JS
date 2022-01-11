@@ -37,7 +37,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center; 
-    background-image: url("m.jpg");
+    background-image: url("imagens/m.jpg");
     object-fit: cover;
     height: 77vh;
     
