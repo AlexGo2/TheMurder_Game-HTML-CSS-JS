@@ -6,12 +6,12 @@ function select(opcao) {
         var opcao = prompt('Escolha: 1- Eduardo , 2 - Mônica ou 3 - Chris');
 
         if (opcao == 1) {
-            return location.href = "eduardo";
+            return location.href = "eduardo/edu1.html";
 
         }
 
         else if (opcao == 2) {
-            return location.href = "p1level2.html";
+            return location.href = "monica/monica1.html";
 
         }
 
