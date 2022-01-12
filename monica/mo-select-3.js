@@ -3,27 +3,27 @@
 function select(opcao) {
     while (opcao != 1 || opcao != 2 || opcao != 3) {
 
-        var opcao = prompt("Maravilha! Você está na garagem, agora tente roubar o carro do Killer para finalmente fugir. Mas espere ele está logo atrás de você, corra!!! Escolha: (1, 2 ou 3");
+        var opcao = prompt("Você descobre que seu namorado te traía com ela, mas agora ela quer acabar com os dois. Você tem que tomar uma decisão. Seja rápida, o tempo está acabando...Escolha: (1, 2 ou 3");
 
         if (opcao == 1) {
-            alert('Droga! Sem munição, ache outra saída (escolha: opção 2 ou 3)');
+            alert('Você vai para cima dela com toda sua fúria, mas ela saca uma arma e te dá um tiro...game over');
             
             
-            return location.href = "chris3.html"
+            return location.href = "../gameover.html"
             
     
         }
 
         else if (opcao == 2) {
-            alert('Parabéns! Você conseguiu derrotar Killer o mais temido assassino do mundo.');
-            return location.href = "chris3.html";
+            alert('A fumaça do extintor, faz com que ela te perca de vista e você fica invisível. Com uma pedra você a acerta na cabeça e consegue se salvar...');
+            return location.href = "../win.html";
             
             
         }
         
         else if (opcao == 3) {
-            alert('O maluco é brabo e você é muito fraco pra ele...Game Over!')
-            return location.href = "../gameover.html";
+            alert('Ela sabe que você não tem nada, mas quer te machucar a qualquer custo, então ela tira a vida do seu namorado...(escolha opção 1 ou 2)')
+            return location.href = "monica3.html";
             
         }
 

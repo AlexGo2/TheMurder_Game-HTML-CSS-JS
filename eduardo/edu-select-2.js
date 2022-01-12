@@ -3,25 +3,25 @@
 function select(opcao) {
     while (opcao != 1 || opcao != 2 || opcao != 3) {
 
-        var opcao = prompt('Beleza, Você se livrou das correntes, mas falta muito para escapar do perigo. Vamos achar um jeito de sair do esconderijo do Killer.   (Escolha: 1, 2 ou 3)');
+        var opcao = prompt('Droga, os médicos te viram saindo do quarto fuja deles..(escolha 1, 2 ou 3)');
 
         if (opcao == 1) {
-            alert("Você achou uma figurinha do Pelé. Espero que isso seja útil. Pois se nem a xuxa quis o Pelé, eu nem consigo imaginar o por que você o quer XD...(Escolha a opção 2 ou 3)");
-            return location.href = "chris2.html"
+            alert("Você está muito lento! eles te capturaram...Game Over");
+            return location.href = "../gameover.html"
             
     
         }
 
         else if (opcao == 2) {
-            alert('Você virou o Super-choque, mané...')
+            alert('Você, não queria mais viver e se entregou...Game Over')
             return location.href = "../gameover.html";
             
             
         }
 
         else if (opcao == 3) {
-            alert('Dia de sorte! Você achou a chave da porta da garagem. Essa pode ser sua saída para a liberdade...');
-            return location.href = "chris3.html";
+            alert('Ótimo você foi muito inteligente, atrapalhou eles e conseguiu entrar no elevador para o primeiro andar');
+            return location.href = "edu3.html";
             
         }
 

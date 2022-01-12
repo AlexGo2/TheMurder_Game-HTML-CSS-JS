@@ -3,23 +3,24 @@
 function select(opcao) {
     while (opcao != 1 || opcao != 2 || opcao != 3) {
 
-        var opcao = prompt('Você foi sequestrado e acorrentado por um serial killer, tente fugir...(escolha 1, 2 ou 3)');
+        var opcao = prompt(' você está em um hospício e querem fazer experimentos com você até a morte, fuja! (escolha 1, 2 ou 3)');
 
         if (opcao == 1) {
-            alert("Alguém precisa malhar, você parece um franguinho...(Escolha, opção 2 ou 3.");
-            return location.href = "chris1.html"
+            alert("você tirou o catéter que estava te mantendo hidratado com soro, você morreu lentamente...game over")
+
+            return location.href = "../gameover.html"
     
         }
 
-        else if (opcao == 2) {
-            alert('Cacildis! você cortou seu braço fora!!')
-            return location.href = "";
+        else if (opcao == 2) {                      
+            alert('Com a bolsa de soro em mãos agora você pode ir para o corredor')
+            return location.href = "edu2.html";
             
         }
 
         else if (opcao == 3) {
-            alert('Sucesso! você se livrou das correntes');
-            return location.href = "chris2.html";
+            alert('Por aqui não dá! essas grades são muito fortes');
+            return location.href = "edu1.html";
         }
 
         else {
